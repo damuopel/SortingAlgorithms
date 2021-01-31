@@ -31,10 +31,9 @@ def plot(array):
     plt.figure()
     plt.bar(list(range(1,len(array)+1)), array, width = 1, color = 'r', edgecolor = 'k')
     plt.axis('off')
-    
-    
+      
 if __name__ == '__main__':
-    n = 100
+    n = 50
     array = random.sample(range(0,n),n)
     frames = []
     selectionSort(array)
